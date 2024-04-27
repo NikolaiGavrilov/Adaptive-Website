@@ -1,0 +1,26 @@
+@mixin navTextColor () {
+    font-family: 'Merriweather Sans';
+    font-size: 11px;
+    line-height: 19px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: $navTopTextColor;
+}
+
+@mixin linkTextStyle ($color) {
+    font-family: 'Merriweather Sans';
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $color;
+}
+
+@mixin arrowCircled ($width, $height, $padding) {
+    padding: 15px 18px;
+    width: 12px;
+    height: 18px;
+    background-color: rgba(224, 224, 224, 0.0);
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+}

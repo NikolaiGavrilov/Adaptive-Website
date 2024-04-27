@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav class="nav-top">
+        <div class="container">
+            <div class="nav-top__flex">
+                <div class="nav-top__flex-inside">
+                    <a class="nav-top__link" href="#">My Account</a>
+                    <a class="nav-top__link" href="#">MY Wishlist (0)</a>
+                    <a class="nav-top__link" href="#">Checkout</a>
+                    <a class="nav-top__link" href="#">Log In or Register</a>
+                </div>
+                <div class="nav-top__flex-inside">
+                    <select class="nav-top__select" name="currency" id="">
+                        <option value="">US dollar</option>
+                        <option value="">Euro</option>
+                        <option value="">Russian ruble</option>
+                    </select>
+                    <select class="nav-top__select" name="language" id="">
+                        <option value="">English</option>
+                        <option value="">Русский</option>
+                        <option value="">Deutch</option>
+                    </select>
+                    <span class="nav-top__text">My Bag: 0 item(s)</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__flex">
+                <div class="header-logo"><img src="img/header_logo.png" alt="логотип">
+                    <h1 class="header-logo__title">FENGO</h1>
+                </div>
+                <div class="header__flex-right">
+                    <form class="header__search-form" role="search" method="get" action="/search">
+                        <input class="header__search" type="search" name="" id="" placeholder="Find it here...">
+                        <img class="header__search-loupe" src="img/loupe.png" alt="логотип">
+                    </form>
+                    <nav class="header-nav">
+                        <a class="header-nav__link" href="">Fashion</a>
+                        <a class="header-nav__link" href="">Electronics</a>
+                        <a class="header-nav__link" href="">Gifts</a>
+                        <a class="header-nav__link" href="">Books</a>
+                        <a class="header-nav__link" href="">At Home</a>
+                        <a class="header-nav__link" href="">Music</a>
+                        <a class="header-nav__link" href="">Sale</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="slider">
+        <div class="container">
+            <div class="slider__content">
+                <article class="slider__flex">
+                    <span class="slider__flex-top">Check your</span>
+                    <span class="slider__flex-middle">autumn<br>style</span>
+                    <span class="slider__flex-lower">All the trends you need<br>this season</span>
+                    <a class="slider__flex-link" href="#">read it now <i class="fa fa-solid fa-angle-right"></i></a>
+                </article>
+                <img class="slider__arrow slider__arrow_left" src="img/arrow_left.png" alt="">
+                <img class="slider__arrow slider__arrow_right" src="img/arrow_right.png" alt="">
+                <span class="slider__resolution">1920 x 1070 px</span>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="categories">
+        <div class="container">
+            <div class="categories-grid">
+                <div class="categories-grid__exclusive">
+                    <span class="categories-grid__resolution categories-grid__resolution__big-category">770 X 430
+                        PX</span>
+                    <div class="categories-grid__exclusive__in-grid-flex">
+                        <h1 class="categories-grid__exclusive__title">exclusive</h1>
+                        <h2 class="categories-grid__exclusive__under-title">discount codes & offers</h2>
+                    </div>
+                    <a class="categories-grid__link categories-grid__exclusive__link" href="#">get your discount <i
+                            class="fa fa-solid fa-angle-right"></i></a>
+                    <img class="categories-grid__exclusive__arrow categories-grid__exclusive__arrow_left"
+                        src="img/arrow_left.png" alt="">
+                    <img class="categories-grid__exclusive__arrow categories-grid__exclusive__arrow_right"
+                        src="img/arrow_right.png" alt="">
+                </div>
+                <div class="categories-grid__jewelry ">
+                    <span class="categories-grid__resolution categories-grid__resolution__small-category">370 X 250
+                        PX</span>
+                    <div class="categories-grid__jewelry__in-grid-flex">
+                        <h1 class="categories-grid__jewelry__title">jewelry</h1>
+                        <span class="categories-grid__jewelry__under-title">every third item is free!</span>
+                    </div>
+                    <a class="categories-grid__link categories-grid__jewelry__link" href="#">buy now <i
+                            class="fa fa-solid fa-angle-right"></i></a>
+                </div>
+                <div class="categories-grid__accessories">
+                    <span class="categories-grid__resolution categories-grid__resolution__small-category">370 X 250
+                        PX</span>
+                    <div class="categories-grid__accessories__in-grid-flex">
+                        <h1 class="categories-grid__accessories__title">accessories</h1>
+                        <span class="categories-grid__accessories__under-title">Complete your style</span>
+                    </div>
+                    <a class="categories-grid__link categories-grid__accessories__link" href="#">get the look <i
+                            class="fa fa-solid fa-angle-right"></i></a>
+                </div>
+                <div class="categories-grid__lookbook">
+                    <span class="categories-grid__resolution categories-grid__resolution__lookbook">370 x 710 px</span>
+                    <div class="categories-grid__lookbook__in-grid-flex">
+                        <h1 class="categories-grid__lookbook__title">LOOKBOOK</h1>
+                        <span class="categories-grid__lookbook__mid-title">women</span>
+                        <span class="categories-grid__lookbook__under-title">autumn 2013</span>
+                    </div>
+                    <a class="categories-grid__link categories-grid__lookbook__link" href="#">get the look <i
+                            class="fa fa-solid fa-angle-right"></i></a>
+                </div>
+                <div class="categories-grid__hottest-styles">
+                    <div class="categories-grid__hottest-styles__in-grid-flex">
+                        <span class="categories-grid__hottest-styles__above-title">the</span>
+                        <h1 class="categories-grid__hottest-styles__title">hottest styles</h1>
+                        <span class="categories-grid__hottest-styles__under-title">are here</span>
+                    </div>
+                    <span class="categories-grid__resolution categories-grid__resolution__hottest-styles">370 X 710
+                        PX</span>
+                    <a class="categories-grid__link categories-grid__hottest-styles__link" href="#">watch now <i
+                            class="fa fa-solid fa-angle-right"></i></a>
+                </div>
+                <div class="categories-grid__whats-new">
+                    <span class="categories-grid__resolution categories-grid__resolution__small-category">370 X 530
+                        PX</span>
+                    <h1 class="categories-grid__whats-new__title">what's new?</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="container">
+            <div class="producst__content"></div>
+            <div class="products__categories">
+                <a class="products__links" href="#">new arrivals</a>
+                <a class="products__links" href="#">Featured</a>
+                <a class="products__links" href="#">Special</a>
+                <a class="products__links" href="#">bestsellers</a>
+            </div>
+            <div class="products__flex">
+                <div class="product">
+                    <a href="#" class="product__content">
+                        <div class="product__img">
+                            <span class="product__resolution">270 x 350 px;</span>
+                        </div>
+                        <div class="product__flex">
+                            <span class="product__title">Carded Cotton Shawl Cardigan</span>
+                            <div class="product__prices">
+                                <span class="product__price">$187</span>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="product__add-box">
+                        <div class="product__add-box__buttons">
+                            <a class="product__add-box__large-links" href="#">ADD TO BAG</a>
+                            <div class="product__add-box__border-between-links"></div>
+                            <a class="product__add-box__large-links" href="#">MORE INFO</a>
+                        </div>
+                        <div class="product__add-box__lower-buttons">
+                            <a class="product__add-box__small-links" href="#">+ Add to Wishlist</a>
+                            <a class="product__add-box__small-links" href="#">+ Add to Compare</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <a href="#" class="product__content">
+                        <div class="product__img">
+                            <div class="product__sale"><span class="product__sale-text">-50%</span></div>
+                            <div class="product__color-choice"></div>
+                            <div class="product__color-choice"></div>
+                            <div class="product__color-choice"></div>
+                        </div>
+                        <div class="product__flex">
+                            <span class="product__title">Shetland Wool Full-Zip Sweater</span>
+                            <div class="product__prices">
+                                <span class="product__price_old">$180</span>
+                                <span class="product__price">$119</span>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="product__add-box">
+                        <div class="product__add-box__buttons">
+                            <a class="product__add-box__large-links" href="#">ADD TO BAG</a>
+                            <div class="product__add-box__border-between-links"></div>
+                            <a class="product__add-box__large-links" href="#">MORE INFO</a>
+                        </div>
+                        <div class="product__add-box__lower-buttons">
+                            <a class="product__add-box__small-links" href="#">+ Add to Wishlist</a>
+                            <a class="product__add-box__small-links" href="#">+ Add to Compare</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <a href="#" class="product__content">
+                        <div class="product__img">
+                        </div>
+                        <div class="product__flex">
+                            <span class="product__title">Mustard Yellow Ruffle White Shirt</span>
+                            <div class="product__prices">
+                                <span class="product__price">$478</span>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="product__add-box">
+                        <div class="product__add-box__buttons">
+                            <a class="product__add-box__large-links" href="#">ADD TO BAG</a>
+                            <div class="product__add-box__border-between-links"></div>
+                            <a class="product__add-box__large-links" href="#">MORE INFO</a>
+                        </div>
+                        <div class="product__add-box__lower-buttons">
+                            <a class="product__add-box__small-links" href="#">+ Add to Wishlist</a>
+                            <a class="product__add-box__small-links" href="#">+ Add to Compare</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <a href="#" class="product__content">
+                        <div class="product__img">
+                            <div class="product__new"><span class="product__new-text">NEW</span></div>
+                        </div>
+                        <div class="product__flex">
+                            <span class="product__title">Fine Custom-Fit Poplin Regent</span>
+                            <div class="product__prices">
+                                <span class="product__price">$1150</span>
+                            </div>
+
+                        </div>
+                        <div class="rating"><i class="fa fa-solid fa-star"></i><i class="fa fa-solid fa-star"></i><i
+                                class="fa fa-solid fa-star"></i><i class="fa fa-solid fa-star"></i><i
+                                class="fa fa-solid fa-star fa-star-empty"></i></i></div>
+                    </a>
+                    <div class="product__add-box">
+                        <div class="product__add-box__buttons">
+                            <a class="product__add-box__large-links" href="#">ADD TO BAG</a>
+                            <div class="product__add-box__border-between-links"></div>
+                            <a class="product__add-box__large-links" href="#">MORE INFO</a>
+                        </div>
+                        <div class="product__add-box__lower-buttons">
+                            <a class="product__add-box__small-links" href="#">+ Add to Wishlist</a>
+                            <a class="product__add-box__small-links" href="#">+ Add to Compare</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <a href="#" class="product__content">
+                        <div class="product__img">
+                        </div>
+                        <div class="product__flex">
+                            <span class="product__title">Carded Cotton Shawl Cardigan</span>
+                            <div class="product__prices">
+                                <span class="product__price">$248</span>
+                            </div>
+
+                        </div>
+                        <div class="rating"><i class="fa fa-solid fa-star"></i><i class="fa fa-solid fa-star"></i><i
+                                class="fa fa-solid fa-star"></i><i class="fa fa-solid fa-star-empty"></i><i
+                                class="fa fa-solid fa-star fa-star-empty"></i><i
+                                class="fa fa-solid fa-star fa-star-empty"></i></div>
+                    </a>
+                    <div class="product__add-box">
+                        <div class="product__add-box__buttons">
+                            <a class="product__add-box__large-links" href="#">ADD TO BAG</a>
+                            <div class="product__add-box__border-between-links"></div>
+                            <a class="product__add-box__large-links" href="#">MORE INFO</a>
+                        </div>
+                        <div class="product__add-box__lower-buttons">
+                            <a class="product__add-box__small-links" href="#">+ Add to Wishlist</a>
+                            <a class="product__add-box__small-links" href="#">+ Add to Compare</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <a href="#" class="product__content">
+                        <div class="product__img">
+                        </div>
+                        <div class="product__flex">
+                            <span class="product__title">Shetland Wool Full-Zip Sweater</span>
+                            <div class="product__prices">
+                                <span class="product__price">$657</span>
+                            </div>
+
+                        </div>
+                    </a>
+                    <div class="product__add-box">
+                        <div class="product__add-box__buttons">
+                            <a class="product__add-box__large-links" href="#">ADD TO BAG</a>
+                            <div class="product__add-box__border-between-links"></div>
+                            <a class="product__add-box__large-links" href="#">MORE INFO</a>
+                        </div>
+                        <div class="product__add-box__lower-buttons">
+                            <a class="product__add-box__small-links" href="#">+ Add to Wishlist</a>
+                            <a class="product__add-box__small-links" href="#">+ Add to Compare</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <a href="#" class="product__content">
+                        <div class="product__img">
+                            <div class="product__out-of-stock"><span class="product__out-of-stock-text">OUT
+                                    OF STOCK</span></div>
+                        </div>
+                        <div class="product__flex">
+                            <span class="product__title">Fine Custom-Fit Poplin Regent</span>
+                            <div class="product__prices">
+                                <span class="product__price_old">$323</span>
+                                <span class="product__price">$214</span>
+                            </div>
+
+                        </div>
+                        <div class="rating"><i class="fa fa-solid fa-star"></i><i class="fa fa-solid fa-star"></i><i
+                                class="fa fa-solid fa-star"></i><i class="fa fa-solid fa-star"></i><i
+                                class="fa fa-solid fa-star fa-star"></i></i></div>
+                    </a>
+                    <div class="product__add-box">
+                        <div class="product__add-box__buttons">
+                            <a class="product__add-box__large-links" href="#">ADD TO BAG</a>
+                            <div class="product__add-box__border-between-links"></div>
+                            <a class="product__add-box__large-links" href="#">MORE INFO</a>
+                        </div>
+                        <div class="product__add-box__lower-buttons">
+                            <a class="product__add-box__small-links" href="#">+ Add to Wishlist</a>
+                            <a class="product__add-box__small-links" href="#">+ Add to Compare</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <a href="#" class="product__content">
+                        <div class="product__img">
+                        </div>
+                        <div class="product__flex">
+                            <span class="product__title">Fine Custom-Fit Poplin Regent</span>
+                            <div class="product__prices">
+                                <span class="product__price">$147</span>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="product__add-box">
+                        <div class="product__add-box__buttons">
+                            <a class="product__add-box__large-links" href="#">ADD TO BAG</a>
+                            <div class="product__add-box__border-between-links"></div>
+                            <a class="product__add-box__large-links" href="#">MORE INFO</a>
+                        </div>
+                        <div class="product__add-box__lower-buttons">
+                            <a class="product__add-box__small-links" href="#">+ Add to Wishlist</a>
+                            <a class="product__add-box__small-links" href="#">+ Add to Compare</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="products__under-products">
+                <div class="products__grey-line"></div>
+                <a href="#" class="products__show-more">Show more</a>
+                <div class="products__grey-line"></div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container">
+            <div class="footer__content">
+
+            </div>
+        </div>
+    </section>
+
+    <section class="copyright">
+        <div class="container">
+            <div class="copyright__content">
+
+            </div>
+        </div>
+    </section>
+    <div class="copyright"></div>
+
+</body>
+
+</html>
